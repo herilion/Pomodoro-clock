@@ -8,4 +8,9 @@ html,body{
     height: 100px;
     width: 100px;
     background: red;
+    position: relative;
+    transform: scale(2);
+}
+.circular .inner{
+    position: absolute;
 }
