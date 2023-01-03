@@ -4,3 +4,8 @@ html,body{
     text-align: center;
     place-items: center;
 }
+.circular{
+    height: 100px;
+    width: 100px;
+    background: red;
+}
