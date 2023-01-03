@@ -23,10 +23,19 @@ html,body{
     border-radius: 100%;
     box-shadow: 0 1px 0 rgb(0, 0,0,0.2);
 }
-.circular .bar{
+.circular .bar {
     position: absolute;
     height: 100%;
     width: 100%;
     background: #fff;
     /* -webkit-border-radius:100%; */
+    clip: rect(0px,100px,100px,50px);
+}
+.circular .bar .progress{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    /* -webkit-border-radius:100%; */
+    clip: rect(0px,100px,100px,50px);
 }
