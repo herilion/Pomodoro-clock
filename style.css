@@ -53,7 +53,7 @@ html,body{
   position: absolute;
   height: 100%;
   width: 100%;
-  background: #fff;
+  background: #4158d0;;
   -webkit-border-radius: 100%;
   clip: rect(0px, 100px, 100px, 50px);
 }
@@ -65,7 +65,8 @@ html,body{
   clip: rect(0px, 50px, 100px, 0px);
 }
 .circle .bar .progress, .dot span{
-  background: #4158d0;
+  background: #fff; /*bleu*/
+  /* background: #4158d0; bleu */
 }
 .circle .left .progress{
   z-index: 1;
