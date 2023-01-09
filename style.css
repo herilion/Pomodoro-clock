@@ -3,6 +3,7 @@ html,body{
     height: 100%;
     text-align: center;
     place-items: center;
+    background: #dde6f0;
 }
 .circular{
     height: 100px;
