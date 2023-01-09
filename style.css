@@ -50,6 +50,11 @@ html,body{
         transform: rotate(180deg);
     }
 }
+.cicle .right{
+    z-index: 3;
+    transform: rotate(180deg);
+    animation: right 4s linear both;
+}
 .cicle .right .progress{
     z-index: 3;
 }
